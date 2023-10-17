@@ -19,7 +19,7 @@ const notFoundMiddleware = require('./middleware/not-found');
 const errorHandlerMiddleware = require('./middleware/error-handler');
 const authRouter = require("./routes/auth");
 const jobsRouter = require("./routes/jobs")
-const authenticateUser = require("./middleware/authentication")
+const authenticateUser =require("./middleware/authentication") 
 
 
 
